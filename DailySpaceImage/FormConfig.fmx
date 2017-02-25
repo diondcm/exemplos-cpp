@@ -1,0 +1,120 @@
+object frmConfig: TfrmConfig
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 640
+  Fill.Color = claCadetblue
+  Fill.Kind = Solid
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 3
+  object GridPanelLayout1: TGridPanelLayout
+    Align = Client
+    Size.Width = 640.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    ColumnCollection = <
+      item
+        Value = 50.000000000000000000
+      end
+      item
+        Value = 50.000000000000000000
+      end>
+    ControlCollection = <
+      item
+        Column = 0
+        ColumnSpan = 2
+        Control = edtAPIKey
+        Row = 0
+      end
+      item
+        Column = 0
+        Control = btnOk
+        Row = 3
+      end
+      item
+        Column = 1
+        Control = btnCancel
+        Row = 3
+      end
+      item
+        Column = 0
+        ColumnSpan = 2
+        Control = btnLink
+        Row = 1
+      end>
+    RowCollection = <
+      item
+        Value = 25.000000000000000000
+      end
+      item
+        Value = 25.000000000000000000
+      end
+      item
+        Value = 25.000000000000000000
+      end
+      item
+        Value = 25.000000000000000000
+      end
+      item
+        SizeStyle = Auto
+      end
+      item
+        SizeStyle = Auto
+      end
+      item
+        SizeStyle = Auto
+      end>
+    object edtAPIKey: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Center
+      TabOrder = 1
+      TextSettings.HorzAlign = Center
+      Size.Width = 300.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextPrompt = 'Your Nasa API Key'
+    end
+    object btnOk: TButton
+      Anchors = []
+      Position.X = 103.500000000000000000
+      Position.Y = 396.000000000000000000
+      Size.Width = 113.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      Text = 'Ok'
+      TintColor = claSilver
+      OnClick = btnOkClick
+    end
+    object btnCancel: TButton
+      Anchors = []
+      Position.X = 423.500000000000000000
+      Position.Y = 396.000000000000000000
+      Size.Width = 113.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'btnCancelStyle1'
+      TabOrder = 4
+      Text = 'Cancel'
+      TintColor = claSilver
+      OnClick = btnCancelClick
+    end
+    object btnLink: TButton
+      Align = Center
+      StyledSettings = [Family, Size]
+      Size.Width = 280.000000000000000000
+      Size.Height = 35.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 5
+      Text = 'Get at: https://api.nasa.gov...'
+      TextSettings.Font.StyleExt = {00040000000200000004000000}
+      TextSettings.FontColor = claBlue
+      OnClick = btnLinkClick
+    end
+  end
+end

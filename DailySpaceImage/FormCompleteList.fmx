@@ -1,0 +1,97 @@
+object frmCompleteList: TfrmCompleteList
+  Left = 0
+  Top = 0
+  Caption = 'Complete List'
+  ClientHeight = 480
+  ClientWidth = 640
+  Fill.Color = claCadetblue
+  Fill.Kind = Solid
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object lytImageListView: TLayout
+    Align = Client
+    Size.Width = 640.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object ToolBar1: TToolBar
+      Size.Width = 640.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object btnList: TButton
+        Align = MostLeft
+        Size.Width = 49.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'priortoolbuttonbordered'
+        TabOrder = 3
+        OnClick = btnListClick
+      end
+      object btnIncDate: TButton
+        Align = Right
+        ImageIndex = 0
+        Position.X = 542.000000000000000000
+        Size.Width = 49.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'arrowrighttoolbutton'
+        TabOrder = 1
+        OnClick = btnIncDateClick
+      end
+      object lblMonth: TLabel
+        Align = Client
+        StyledSettings = [Family, Size, FontColor]
+        Size.Width = 351.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.HorzAlign = Center
+        Text = 'Select a month:'
+      end
+      object lblSelectedMonth: TLabel
+        Align = Right
+        StyledSettings = [Family, Size, FontColor]
+        Position.X = 449.000000000000000000
+        Size.Width = 93.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.HorzAlign = Center
+        Text = '2017/1'
+      end
+      object Button1: TButton
+        Align = Right
+        ImageIndex = 0
+        Position.X = 591.000000000000000000
+        Size.Width = 49.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'searchtoolbutton'
+        TabOrder = 0
+        OnClick = btnApplyClick
+      end
+      object btnDecDate: TButton
+        Align = Right
+        Position.X = 400.000000000000000000
+        Size.Width = 49.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'arrowlefttoolbutton'
+        TabOrder = 2
+        OnClick = btnDecDateClick
+      end
+    end
+  end
+  object tmrShowImages: TTimer
+    Enabled = False
+    OnTimer = tmrShowImagesTimer
+    Left = 560
+    Top = 208
+  end
+end
