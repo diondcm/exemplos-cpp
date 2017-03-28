@@ -1,0 +1,125 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 840
+  ClientWidth = 1116
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Button1: TButton
+    Position.X = 16.000000000000000000
+    Position.Y = 24.000000000000000000
+    TabOrder = 0
+    Text = 'Button1'
+    OnClick = Button1Click
+  end
+  object Chart1: TChart
+    Position.Y = 528.000000000000000000
+    Foot.Font.StyleExt = {00040000000200000004000000}
+    Legend.Title.Font.StyleExt = {00070000000000000004000000}
+    SubFoot.Font.StyleExt = {00040000000200000004000000}
+    Title.Text.Strings = (
+      'TChart')
+    Zoom.Brush.Kind = None
+    Zoom.Pen.Fill.Color = claSilver
+    Align = Bottom
+    TabOrder = 1
+    Size.Width = 1116.000000000000000000
+    Size.Height = 312.000000000000000000
+    Size.PlatformDefault = False
+    ColorPaletteIndex = 13
+    object Series1: TLineSeries
+      Title = 'Series1'
+      Brush.BackColor = x00FFFFFF
+      Pointer.InflateMargins = True
+      Pointer.Style = psRectangle
+      XValues.Name = 'X'
+      XValues.Order = loAscending
+      YValues.Name = 'Y'
+      YValues.Order = loNone
+    end
+  end
+  object Chart2: TChart
+    Position.Y = 216.000000000000000000
+    Foot.Font.StyleExt = {00040000000200000004000000}
+    Legend.Title.Font.StyleExt = {00070000000000000004000000}
+    SubFoot.Font.StyleExt = {00040000000200000004000000}
+    Title.Text.Strings = (
+      'TChart')
+    Zoom.Brush.Kind = None
+    Zoom.Pen.Fill.Color = claSilver
+    Align = Bottom
+    TabOrder = 2
+    Size.Width = 1116.000000000000000000
+    Size.Height = 296.000000000000000000
+    Size.PlatformDefault = False
+    ColorPaletteIndex = 13
+    object Series2: TFastLineSeries
+      LinePen.Color = xFF4466A3
+      LinePen.Fill.Color = xFF4466A3
+      XValues.Name = 'X'
+      XValues.Order = loNone
+      YValues.Name = 'Y'
+      YValues.Order = loNone
+      Data = {
+        00190000000000000000DC8E40000000000018904000000000007C9040000000
+        00009E91400000000000D0914000000000004090400000000000F89140000000
+        00003A91400000000000169240000000000016924000000000002E9340000000
+        0000C092400000000000F2924000000000006A93400000000000329440000000
+        00003E92400000000000EC934000000000001692400000000000CE9340000000
+        000052924000000000001C91400000000000FE90400000000000408F40000000
+        00000C8C4000000000001C8B40}
+    end
+  end
+  object Splitter1: TSplitter
+    Align = Bottom
+    Cursor = crVSplit
+    MinSize = 20.000000000000000000
+    Position.Y = 512.000000000000000000
+    Size.Width = 1116.000000000000000000
+    Size.Height = 16.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Memo1: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Align = Right
+    Position.X = 824.000000000000000000
+    Size.Width = 292.000000000000000000
+    Size.Height = 216.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 7
+    Viewport.Width = 288.000000000000000000
+    Viewport.Height = 212.000000000000000000
+  end
+  object memTempo: TFDMemTable
+    FetchOptions.AssignedValues = [evMode]
+    FetchOptions.Mode = fmAll
+    ResourceOptions.AssignedValues = [rvSilentMode]
+    ResourceOptions.SilentMode = True
+    UpdateOptions.AssignedValues = [uvCheckRequired, uvAutoCommitUpdates]
+    UpdateOptions.CheckRequired = False
+    UpdateOptions.AutoCommitUpdates = True
+    Left = 816
+    Top = 224
+  end
+  object memFreq: TFDMemTable
+    FetchOptions.AssignedValues = [evMode]
+    FetchOptions.Mode = fmAll
+    ResourceOptions.AssignedValues = [rvSilentMode]
+    ResourceOptions.SilentMode = True
+    UpdateOptions.AssignedValues = [uvCheckRequired, uvAutoCommitUpdates]
+    UpdateOptions.CheckRequired = False
+    UpdateOptions.AutoCommitUpdates = True
+    Left = 936
+    Top = 224
+  end
+  object BindSourceDB1: TBindSourceDB
+    DataSet = memTempo
+    ScopeMappings = <>
+    Left = 824
+    Top = 144
+  end
+end

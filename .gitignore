@@ -1,3 +1,9 @@
+/fft/Win32/Debug/*.obj
+/fft/Win32/Debug
+/fft/__history
+/fft/*.local
+/fft/*.stat
+/fft/*.vlb
 *.o
 *.d
 *.obj
