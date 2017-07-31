@@ -4,3 +4,5 @@
 /fft/*.local
 /fft/*.stat
 /fft/*.vlb
+/UnitTest/__history
+/UnitTest/*.local
