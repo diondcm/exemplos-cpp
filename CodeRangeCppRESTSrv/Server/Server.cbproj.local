@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/10/29 20:14:41.000.729,=C:\Users\Aquasoft\Desktop\exemplos-cpp\CodeRangeCppRESTSrv\Server\FormUnit1.cpp</Transaction>
+    <Transaction>2017/10/29 20:14:42.000.359,=C:\Users\Aquasoft\Desktop\exemplos-cpp\CodeRangeCppRESTSrv\Server\ServerMethodsUnit1.cpp</Transaction>
+    <Transaction>2017/10/29 20:14:54.000.014,=C:\Users\Aquasoft\Desktop\exemplos-cpp\CodeRangeCppRESTSrv\Server\WebModuleUnit1.cpp</Transaction>
+    <Transaction>2017/10/29 20:14:55.000.400,=C:\Users\Aquasoft\Desktop\exemplos-cpp\CodeRangeCppRESTSrv\Server\js\base64.js</Transaction>
+    <Transaction>2017/10/29 20:14:55.000.675,=C:\Users\Aquasoft\Desktop\exemplos-cpp\CodeRangeCppRESTSrv\Server\js\json2.js</Transaction>
+    <Transaction>2017/10/29 20:14:55.000.891,=C:\Users\Aquasoft\Desktop\exemplos-cpp\CodeRangeCppRESTSrv\Server\js\callbackframework.js</Transaction>
+    <Transaction>2017/10/29 20:14:55.000.536,=C:\Users\Aquasoft\Desktop\exemplos-cpp\CodeRangeCppRESTSrv\Server\js\serverfunctionexecutor.js</Transaction>
+    <Transaction>2017/10/29 20:14:55.000.990,=C:\Users\Aquasoft\Desktop\exemplos-cpp\CodeRangeCppRESTSrv\Server\js\serverfunctions.js</Transaction>
+    <Transaction>2017/10/29 20:14:56.000.915,=C:\Users\Aquasoft\Desktop\exemplos-cpp\CodeRangeCppRESTSrv\Server\images\collapse.png</Transaction>
+    <Transaction>2017/10/29 20:14:56.000.976,=C:\Users\Aquasoft\Desktop\exemplos-cpp\CodeRangeCppRESTSrv\Server\images\expand.png</Transaction>
+    <Transaction>2017/10/29 20:14:56.000.139,=C:\Users\Aquasoft\Desktop\exemplos-cpp\CodeRangeCppRESTSrv\Server\js\json2-min.js</Transaction>
+    <Transaction>2017/10/29 20:14:56.000.416,=C:\Users\Aquasoft\Desktop\exemplos-cpp\CodeRangeCppRESTSrv\Server\js\callbackframework-min.js</Transaction>
+    <Transaction>2017/10/29 20:14:56.000.453,=C:\Users\Aquasoft\Desktop\exemplos-cpp\CodeRangeCppRESTSrv\Server\js\connection.js</Transaction>
+    <Transaction>2017/10/29 20:14:56.000.043,=C:\Users\Aquasoft\Desktop\exemplos-cpp\CodeRangeCppRESTSrv\Server\js\base64-min.js</Transaction>
+    <Transaction>2017/10/29 20:14:56.000.736,=C:\Users\Aquasoft\Desktop\exemplos-cpp\CodeRangeCppRESTSrv\Server\templates\reversestring.html</Transaction>
+    <Transaction>2017/10/29 20:14:56.000.600,=C:\Users\Aquasoft\Desktop\exemplos-cpp\CodeRangeCppRESTSrv\Server\css\main.css</Transaction>
+    <Transaction>2017/10/29 20:14:56.000.283,=C:\Users\Aquasoft\Desktop\exemplos-cpp\CodeRangeCppRESTSrv\Server\js\serverfunctionexecutor-min.js</Transaction>
+    <Transaction>2017/10/29 20:14:56.000.556,=C:\Users\Aquasoft\Desktop\exemplos-cpp\CodeRangeCppRESTSrv\Server\js\serverfunctioninvoker.js</Transaction>
+    <Transaction>2017/10/29 20:14:56.000.656,=C:\Users\Aquasoft\Desktop\exemplos-cpp\CodeRangeCppRESTSrv\Server\css\serverfunctioninvoker.css</Transaction>
+    <Transaction>2017/10/29 20:14:56.000.816,=C:\Users\Aquasoft\Desktop\exemplos-cpp\CodeRangeCppRESTSrv\Server\templates\serverfunctioninvoker.html</Transaction>
+    <Transaction>2017/10/29 20:19:05.000.681,C:\Users\Aquasoft\Desktop\exemplos-cpp\CodeRangeCppRESTSrv\Server\FormUnit1.dfm=C:\Users\Aquasoft\Desktop\exemplos-cpp\CodeRangeCppRESTSrv\Server\FormMainServer.dfm</Transaction>
+    <Transaction>2017/10/29 20:19:05.000.681,C:\Users\Aquasoft\Desktop\exemplos-cpp\CodeRangeCppRESTSrv\Server\FormUnit1.cpp=C:\Users\Aquasoft\Desktop\exemplos-cpp\CodeRangeCppRESTSrv\Server\FormMainServer.cpp</Transaction>
+    <Transaction>2017/10/29 20:19:05.000.681,C:\Users\Aquasoft\Desktop\exemplos-cpp\CodeRangeCppRESTSrv\Server\FormUnit1.h=C:\Users\Aquasoft\Desktop\exemplos-cpp\CodeRangeCppRESTSrv\Server\FormMainServer.h</Transaction>
+    <Transaction>2017/10/29 20:19:24.000.649,C:\Users\Aquasoft\Desktop\exemplos-cpp\CodeRangeCppRESTSrv\Server\WebModuleUnit1.dfm=C:\Users\Aquasoft\Desktop\exemplos-cpp\CodeRangeCppRESTSrv\Server\WebModuleUnit.dfm</Transaction>
+    <Transaction>2017/10/29 20:19:24.000.649,C:\Users\Aquasoft\Desktop\exemplos-cpp\CodeRangeCppRESTSrv\Server\WebModuleUnit1.h=C:\Users\Aquasoft\Desktop\exemplos-cpp\CodeRangeCppRESTSrv\Server\WebModuleUnit.h</Transaction>
+    <Transaction>2017/10/29 20:19:24.000.649,C:\Users\Aquasoft\Desktop\exemplos-cpp\CodeRangeCppRESTSrv\Server\WebModuleUnit1.cpp=C:\Users\Aquasoft\Desktop\exemplos-cpp\CodeRangeCppRESTSrv\Server\WebModuleUnit.cpp</Transaction>
+    <Transaction>2017/10/29 20:20:09.000.303,C:\Users\Aquasoft\Desktop\exemplos-cpp\CodeRangeCppRESTSrv\Server\ServerMethodsUnit1.h=C:\Users\Aquasoft\Desktop\exemplos-cpp\CodeRangeCppRESTSrv\Server\ServerMethodsUnit.h</Transaction>
+    <Transaction>2017/10/29 20:20:09.000.303,C:\Users\Aquasoft\Desktop\exemplos-cpp\CodeRangeCppRESTSrv\Server\ServerMethodsUnit1.cpp=C:\Users\Aquasoft\Desktop\exemplos-cpp\CodeRangeCppRESTSrv\Server\ServerMethodsUnit.cpp</Transaction>
+    <Transaction>2017/10/29 20:20:09.000.303,C:\Users\Aquasoft\Desktop\exemplos-cpp\CodeRangeCppRESTSrv\Server\ServerMethodsUnit1.dfm=C:\Users\Aquasoft\Desktop\exemplos-cpp\CodeRangeCppRESTSrv\Server\ServerMethodsUnit.dfm</Transaction>
+    <Transaction>2017/10/29 20:46:34.000.590,C:\Users\Aquasoft\Desktop\exemplos-cpp\CodeRangeCppRESTSrv\Server\ServerMethodsUnit.dfm=C:\Users\Aquasoft\Desktop\exemplos-cpp\CodeRangeCppRESTSrv\Server\ServerRESTUnit.dfm</Transaction>
+    <Transaction>2017/10/29 20:46:34.000.590,C:\Users\Aquasoft\Desktop\exemplos-cpp\CodeRangeCppRESTSrv\Server\ServerMethodsUnit.cpp=C:\Users\Aquasoft\Desktop\exemplos-cpp\CodeRangeCppRESTSrv\Server\ServerRESTUnit.cpp</Transaction>
+    <Transaction>2017/10/29 20:46:34.000.590,C:\Users\Aquasoft\Desktop\exemplos-cpp\CodeRangeCppRESTSrv\Server\ServerMethodsUnit.h=C:\Users\Aquasoft\Desktop\exemplos-cpp\CodeRangeCppRESTSrv\Server\ServerRESTUnit.h</Transaction>
+  </Transactions>
+</BorlandProject>

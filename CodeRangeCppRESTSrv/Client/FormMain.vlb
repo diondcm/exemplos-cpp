@@ -1,0 +1,13 @@
+﻿[StringGrid1]
+Coordinates=195,10,80,58
+
+[BindSourceDB1]
+Coordinates=300,10,106,80
+
+[]
+Coordinates=126,10,59,58
+Visible=False
+
+[BindingsList1]
+Coordinates=0,0,91,36
+
