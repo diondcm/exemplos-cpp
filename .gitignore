@@ -9,3 +9,9 @@
 *.o
 *.d
 *.obj
+/CodeRangeCppRESTSrv/Client/Win32/Debug
+/CodeRangeCppRESTSrv/Client/__astcache/*.astcache
+/CodeRangeCppRESTSrv/Client/__astcache
+/CodeRangeCppRESTSrv/Client/__history
+/CodeRangeCppRESTSrv/Server/Win32/Debug
+/CodeRangeCppRESTSrv/Server/__history
