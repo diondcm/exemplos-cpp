@@ -8,6 +8,11 @@
 #include <memory>
 #include <FireDAC.Comp.Client.hpp>
 
+// This is for binary json, other possibility:
+#include <System.JSON.BSON.hpp>
+#include <System.JSON.Writers.hpp>
+#include <System.JSON.Builders.hpp>
+
 #include "ServerRESTUnit.h"
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
@@ -20,12 +25,12 @@ __fastcall TServerREST::TServerREST(TComponent* Owner)
 //----------------------------------------------------------------------------
 System::UnicodeString TServerREST::EchoString(System::UnicodeString value)
 {
-    return value;
+	return value;
 }
 //----------------------------------------------------------------------------
 System::UnicodeString TServerREST::ReverseString(System::UnicodeString value)
 {
-    return ::ReverseString(value);
+	return ::ReverseString(value);
 }
 //----------------------------------------------------------------------------
 System::UnicodeString TServerREST::SaveImage(System::Classes::TStream* val)
